@@ -1,4 +1,4 @@
-const ctx = document.getElementById('barChart')
+const ctx = document.getElementById('barChart');
 
 new Chart(ctx, {
     type: 'bar',
@@ -10,7 +10,6 @@ new Chart(ctx, {
         data: [12, 19, 3],
         backgroundColor: ["pink", "grey", "green"],
         borderColor: ["darkpink", "darkgrey", "darkgreen"],
-        borderWidth: 2
-      }]
+        borderWidth: 2 }]
     },
   });
